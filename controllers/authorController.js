@@ -143,7 +143,6 @@ exports.author_delete_get = (req, res, next) => {
     }
   );
 };
-
 // Handle Author delete on POST.
 exports.author_delete_post = (req, res, next) => {
   async.parallel(
@@ -180,7 +179,6 @@ exports.author_delete_post = (req, res, next) => {
     }
   );
 };
-
 // Display Author update form on GET.
 exports.author_update_get = (req, res) => {
   res.send("NOT IMPLEMENTED: Author update GET");
